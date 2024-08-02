@@ -29,9 +29,8 @@ public class Taller1 {
     */
     public static String Convertir_km_seg(int velocidad){
         try {
-            
-            float mets_seg=0;
             float mets_horas=0;
+            float mets_seg=0;
             final float metros= 1000, horas= (float)1/3600;
             mets_seg= velocidad * metros;
             mets_horas = mets_seg / horas; 
